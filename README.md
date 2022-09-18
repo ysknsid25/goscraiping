@@ -9,3 +9,9 @@ docker-compose exec goapp ash
 cd ./sample-site/
 go run application.go
 ```
+
+# 依存モジュール管理ツールの導入
+
+```
+go mod init github.com/ysknsid25/goscraiping
+```
